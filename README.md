@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/mo7x8s179lk94byb?svg=true)](https://ci.appveyor.com/project/volik97/react-event-state-layouts)
