@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+.layout{
+  text-align: right;
+  margin-right: 20vmin;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;  /* Preferred icon size */
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  user-select: none;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.cards-view{
+  width: 80vw;
+  margin: 5vmin auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.shop-card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: whitesmoke;
+  color: black;
+  max-width: 320px;
+  margin: 0 30px 30px 30px;
+}
+
+.card-img {
+  width: 300px
+}
+
+.priceAndButton{
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+}
+
+.card-price{
+  text-align: center;
+  width: 50%;
+  
+  
+}
+.card-add-btn{
+  text-align: center;
+  width:  50%;
+  margin: 0 20px;
+}
+
+.list-view{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.shop-item{
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 150vmin;
+  height: 12vh;
+}
+
+.item-img{
+  margin-left: 30px;
+  height: 100%;
+}
+
+.item-add-btn{
+  width: fit-content;
+  height: fit-content;
+}
